@@ -1,0 +1,12 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune2e4bda.output 2> /dev/null
+$ /cell_root/software/ocaml/4.07.1/sys/bin/ocamlc.opt -config > /tmp/dune88ffce.output
+$ (cd _build/default/test && ./student.exe)
+> .
+> Ran: 1 tests in: 0.11 seconds.
+> OK
+$ (cd _build/default/test && ./public.exe)
+> ........
+> Ran: 8 tests in: 0.13 seconds.
+> OK
