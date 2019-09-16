@@ -1,0 +1,58 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune325495.output 2> /dev/null
+$ /cell_root/software/ocaml/4.07.1/sys/bin/ocamlc.opt -config > /tmp/dunef3704d.output
+$ (cd _build/default/test && ./public.exe)
+> ............................200
+> 200
+> -1
+> 1
+> 3
+> 5
+> 7
+> 9
+> 64
+> false
+> 0
+> false
+> 0
+> 100
+> 322
+> 8002
+> 1
+> 3
+> 5
+> 7
+> 9
+> 1
+> 10
+> 1
+> 3
+> 10
+> 3
+> 6
+> 10
+> 6
+> 10
+> 10
+> 10
+> 15
+> 10
+> 15
+> 21
+> 10
+> 21
+> 28
+> 10
+> 28
+> 36
+> 10
+> 36
+> 45
+> 20
+> 45
+> 10
+> true
+>
+> Ran: 28 tests in: 0.14 seconds.
+> OK
